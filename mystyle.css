@@ -18,6 +18,10 @@ input:not(:placeholder-shown):not(:focus):invalid {
     border-color: red;
   }
 
+input{
+    width: 20%;
+
+}
 
 INPUT[type="submit"]
 {
