@@ -29,7 +29,7 @@
 			<input type="text" id="directory" name="path" placeholder="c:\windows\temp" pattern="[a-zA-Z]:\\(windows|winnt|win|dos|msdos)\\?[a-z]*" title="Case sensitive directory path" required><br><br>
       
 			<label for="directory_ins">7b) Ścieżka case insensitive:</label>
-			<input type="text" id="directory_ins" name="directory_ins" placeholder="c:\WinDowS\temp" pattern="" title="Case insensitive path" required><br><br>
+			<input type="text" id="directory_ins" name="directory_ins" placeholder="c:\WinDowS\temp" pattern="^[a-zA-Z]:\\([Ww][Ii][Nn][Dd][Oo][Ww][Ss]|[Ww][Ii][Nn][Nn][Tt]|[Ww][Ii][Nn]|[Dd][Oo][Ss]|[Mm][Ss][Dd][Oo][Ss])\\?[a-zA-Z]*" title="Case insensitive path" required><br><br>
 
 			<label for="etc_path">8) Ścieżka do pliku w katalogu /etc/:</label>
 			<input type="text" id="etc_path" name="etc_path" placeholder="c:\windows\temp" pattern="^(/etc/).*" title="Path" required><br><br>
@@ -44,3 +44,4 @@
 		</form>
     </body>
 </html>
+

@@ -3,7 +3,7 @@ body {
   }
   
   h1 {
-    color: navy;
+    color: black;
     margin-left: 20px;
   }
 
@@ -20,7 +20,6 @@ input:not(:placeholder-shown):not(:focus):invalid {
 
 input{
     width: 20%;
-    border-radius: 5px;
 
 }
 
