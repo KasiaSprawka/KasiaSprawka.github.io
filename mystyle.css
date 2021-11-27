@@ -7,3 +7,19 @@ body {
     margin-left: 20px;
   }
 
+input:valid{
+    border-style: solid;
+    border-color: green;
+} 
+
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border-style: solid;
+    border-color: red;
+  }
+
+
+INPUT[type="submit"]
+{
+    border-color: black;
+}
