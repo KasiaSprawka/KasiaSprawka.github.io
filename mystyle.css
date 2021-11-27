@@ -20,6 +20,7 @@ input:not(:placeholder-shown):not(:focus):invalid {
 
 input{
     width: 20%;
+    border-radius: 5px;
 
 }
 
