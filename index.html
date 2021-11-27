@@ -1,8 +1,46 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
     <body>
         
-        <h1>Inputs</h1>
+        <h1>Formularz</h1>
+          <form >
+			<label for="email">1) Adres email:</label>
+			<input type="email" id="email" name="email" placeholder="adres@example.com"><br><br>
+			
+			<label for="postal_code">2) Kod pocztowy: </label>
+			<input type="text" id="postal_code" name="postal_code" placeholder="91-111" pattern="\d{2}-\d{3}" title="Wpisz kod w formacie: NN-NNN"><br><br>
+			
+			<label for="nip_number">3) Numer NIP:</label>
+			<input type="text" id="nip_number" name="nip_number" placeholder="123-456-32-18" pattern="" title="Wpisz NIP w formacie: NNN-NNN-NN-NN"><br><br>
 
+			<label for="id_card">4) Numer dowodu:</label>
+			<input type="text" id="id_card" name="id_card" placeholder="ABC123456" pattern="[A-Z]{3}[0-9]{6}" title=""><br><br>
+
+			<label for="ip_v4">5) Adres IPv4:</label>
+			<input type="text" id="ip_v4" name="ip_v4" placeholder="192.168.17.43" pattern="" title="IPv4"><br><br>
+
+			<label for="www_website">6) Strona WWW</label>
+			<input type="text" id="www_website" name="www_website" placeholder="https://p.lodz.pl/"  title="Full website address"><br><br>
+
+			<label for="directory">7a) Ścieżka:</label>
+			<input type="text" id="directory" name="path" placeholder="c:\windows\temp" pattern="" title="Case sensitive directory path"><br><br>
+
+			<label for="directory_ins">7b) Ścieżka case insensitive:</label>
+			<input type="text" id="directory_ins" name="directory_ins" placeholder="" pattern="" title="Case insensitive path"><br><br>
+
+			<label for="etc_path">8) Ścieżka</label>
+			<input type="text" id="etc_path" name="etc_path" placeholder="" pattern="^(/etc/).*" title="Path"><br><br>
+
+			<label for="ip_v6">9) Adres IPv6</label>
+			<input type="text" id="ip_v6" name="ip_v6" placeholder=""><br><br>
+
+			<label for="phone_number">10) Numer telefonu:</label>
+			<input type="text" id="phone_number" placeholder="123-456-789" name="phone_number" pattern="[0-9]{3}(-)?[0-9]{3}(-)?[0-9]{3}" title="NNN-NNN-NNN or NNNNNNNNN format"><br><br>
+
+			<input type="submit" value="Submit">
+		</form>
     </body>
 </html>
