@@ -21,10 +21,17 @@ input:not(:placeholder-shown):not(:focus):invalid {
 
 input{
     width: 300px;
+    
 
 }
 
 INPUT[type="submit"]
 {
     border-color: black;
+}
+
+INPUT[type="color"]
+{
+  border: so2px inset #EBE9ED;
+  width: 100px;
 }
