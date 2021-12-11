@@ -44,16 +44,16 @@
 			<input type="text" id="phone_number" placeholder="123-456-789" name="phone_number" pattern="[0-9]{3}(-)?[0-9]{3}(-)?[0-9]{3}" required><br><br>
 
 			<label for="date1">11) Wybierz datę:</label> 
-			<input type = "date" value="2021-12-06"><br><br>
+			<input type = "date" value="2021-12-06" class="no-validation"><br><br>
 
 			<label for="date2">12) Wybierz datę:</label> 
-			<input type = "date" min="2021-12-06" max="2021-12-10" value="2021-12-06"><br><br>
+			<input type = "date" min="2021-12-06" max="2021-12-10" value="2021-12-06" class="no-validation"><br><br>
 
 			<label for="time1">13a) Wybierz godzinę (format 24h):</label>
-			<input type="time" id="time" name="time" value="11:59"><br><br>
+			<input type="time" id="time1" name="time1" class="no-validation" required value="15:00"><br><br>
 
-			<label for="time1">13b) Wybierz godzinę (format 12h):</label>
-			<input type="time" id="time" name="time" value="11:59" min="01:00" max="12:59">
+			<label for="time2">13b) Wybierz godzinę (format 12h):</label>
+			<input type="time" id="time2" name="time2" min="01:00" max="12:59" value="03:00" required>
 
 			<select name="cars" id="cars">
 			  <option value="am">AM</option>
@@ -61,9 +61,9 @@
 			</select><br><br>
 
 			<label for="favcolor">14) Wybierz swój ulubiony kolor :) : </label>
-			<input type="color" id="favcolor" name="favcolor" value="#f6b73c"><br><br>
+			<input type="color" id="favcolor" name="favcolor" value="#f6b73c" class="no-validation"><br><br>
 
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit" id="submit_button"  class="no-validation">
 		</form>
         </div></div>
     </body>

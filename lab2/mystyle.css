@@ -8,30 +8,46 @@ body {
     margin-left: 20px;
   }
 
-input:valid{
-    border-style: solid;
-    border-color: green;
+
+input{
+    border: 1px solid rgb(102, 102, 102);
+  }
+  
+
+input:not(#time2):valid{
+  border: 3px solid green;
 } 
 
 
 input:not(:placeholder-shown):not(:focus):invalid {
-    border-style: solid;
-    border-color: red;
+    border: 3px solid red;
   }
 
 input{
     width: 300px;
-    
-
 }
+
+
+/* INPUT[type="color"]
+{
+  border-style: solid;
+  border-color: rgb(102, 102, 102);
+} */
+
+/* INPUT[type="date"]
+{
+  border-style: solid;
+  border-color: rgb(102, 102, 102);
+} */
+
+
+.no-validation{
+  border: 1px solid rgb(102, 102, 102) !important;
+}
+
 
 INPUT[type="submit"]
 {
     border-color: black;
 }
 
-INPUT[type="color"]
-{
-  border: so2px inset #EBE9ED;
-  width: 100px;
-}
