@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(218, 179, 228);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    color: black;
+    margin-left: 20px;
+  }
+
+input:valid{
+    border-style: solid;
+    border-color: green;
+} 
+
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border-style: solid;
+    border-color: red;
+  }
+
+input{
+    width: 300px;
+
+}
+
+INPUT[type="submit"]
+{
+    border-color: black;
+}
