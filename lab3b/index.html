@@ -43,18 +43,47 @@
 					}
 					}
 				});
+
+				function myFunction() {
+					var x = document.getElementById("myDIV");
+					if (x.style.display === "none") {
+						x.style.display = "block";
+					} else {
+						x.style.display = "none";
+					}
+					}
+
+
+
+
+
+
+
+
 			</script>
 
 
 
 
-        <div style="text-align: center;">
-            <h1>Lista</h1>
-        <div style="display: inline-block; text-align: left;">
-        
+        <div style="text-align: center;" class = "container">
+			<div id="myDIV2">
+				<canvas id="canvas"></canvas>
+
+				</div>
+		
+		</div>
+		<div class = "container2"> <button class="block" onclick="myFunction()">Generuj klocek</button></div>
 
 
-        </div></div>
+		<script>
+		const canvas = document.getElementById('canvas');
+		const ctx = canvas.getContext('2d');
+		ctx.fillStyle = '#c44569';
+		ctx.fillRect(20, 10, 150, 100);
+		</script>
+
+
+
     </body>
 </html>
 
