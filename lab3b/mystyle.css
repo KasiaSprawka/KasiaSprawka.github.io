@@ -12,11 +12,13 @@ body {
 
 .container{
   height: 80vh;
-  background: #fab1a0;
+  width:100vw;
+  background: rgb(212, 205, 214);
 }
 
 .container2{
   height: 20vh;
+  width:100vw;
   background: #fab1a0;
 }
 
@@ -36,4 +38,9 @@ body {
 .block:hover {
   background-color: #ddd;
   color: black;
+}
+
+.canvas{
+height:100%;
+width:100%;
 }
