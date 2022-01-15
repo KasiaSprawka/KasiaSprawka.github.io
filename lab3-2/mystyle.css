@@ -45,10 +45,6 @@ height:100%;
 width:100%;
 }
 
-
-
-
-
 #mydiv {
   position: absolute;
   z-index: 9;
@@ -56,13 +52,3 @@ width:100%;
   border: 1px solid #d3d3d3;
   text-align: center;
 }
-
-/* #mydivheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #2196F3;
-  color: #fff;
-  width: 150px;
-  height: 75px;
-} */
